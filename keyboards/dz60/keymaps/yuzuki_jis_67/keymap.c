@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,           KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_LBRC, KC_RBRC,
     KC_LCTL,          KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_BSLS, KC_ENT,
     KC_LSFT,          KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RO,   KC_UP,   KC_RSFT,
-    KC_LALT, KC_LGUI, KC_LCTL, KC_MHEN,                   KC_SPC,                    KC_HENK, KC_RALT, MO(_L1), KC_LEFT, KC_DOWN, KC_RIGHT
+    MO(_L1), KC_LGUI, KC_LCTL, KC_MHEN,                   KC_SPC,                    KC_HENK, KC_RALT, MO(_L1), KC_LEFT, KC_DOWN, KC_RIGHT
   ),
 
   /* 1: fn 1 */
@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ├──────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬───┤
     │       │HUI│HUD│VAI│   │   │   │Mut│   │   │   │   |Bup|   │
     ├────┬──┴─┬─┴──┬┴───┴───┼───┴───┼───┴───┼───┼───┼───┼───┼───┤
-    │    │    │    │        |       |       |   │   │Vdo│Bdo│Vup│ 
+    │    │    │    │        |       |       |   │   │Vdo│Bdo│Vup│
     └────┴────┴────┴────────┴───────┴───────┴───┴───┴───┴───┴───┘
     HUI…色相を変更
     HUD…色相を逆方向に変更
